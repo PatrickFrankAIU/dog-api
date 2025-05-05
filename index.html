@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Viewer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dog Breed Viewer</h1>
+        
+        <div class="input-area">
+            <select id="breedSelect">
+                <option value="">Select a breed...</option>
+            </select>
+            <button id="fetchButton">Fetch Dog</button>
+        </div>
+        
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="error" class="hidden"></div>
+        
+        <div class="image-container">
+            <img id="dogImage" class="hidden" src="" alt="Dog Image">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
